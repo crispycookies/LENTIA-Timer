@@ -7,8 +7,9 @@
 
 
 #include "BasicTimerBasicImpl.h"
-#include "../Interrupts/IRQCallee.h"
-#include "../Interrupts/IRQ.h"
+#include "../../../../Common/IRQs/IRQCallee.h"
+#include "../../../../Common/IRQs/IRQ.h"
+#include "../../../../Common/IRQs/IRQCallee.h"
 #include "../Interrupts/IRQTimerBasicImpl.h"
 
 class BasicTimerWithInterruptBasicImpl : public BasicTimerBasicImpl, public IRQCallee {

@@ -5,8 +5,8 @@
 #ifndef DRONE_IRQTIMERBASICIMPL_H
 #define DRONE_IRQTIMERBASICIMPL_H
 
-#include "IRQBasicImpl.h"
 #include "../Timer/Timer.h"
+#include "../../../../Common/IRQs/IRQBasicImpl.h"
 
 class IRQTimerBasicImpl : public IRQBasicImpl {
 protected:
